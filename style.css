@@ -1,0 +1,38 @@
+:root {
+  font-size: 62.5%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box1 {
+  width: 10rem;
+  height: 10rem;
+  background-color: red;
+}
+
+.box2 {
+  width: 10rem;
+  height: 10rem;
+  background-color: blue;
+}
+.box3 {
+  width: 10rem;
+  height: 10rem;
+  background-color: purple;
+}
+.box4 {
+  width: 10rem;
+  height: 10rem;
+  background-color: black;
+}
+
+main {
+  display: grid;
+  grid: auto-flow 150px / repeat(auto-fit, minmax(10rem, 15rem));
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
